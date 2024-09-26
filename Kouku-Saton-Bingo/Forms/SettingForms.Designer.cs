@@ -114,7 +114,7 @@
             this.iTalk_TrackBar_FormSize.DrawValueString = false;
             this.iTalk_TrackBar_FormSize.JumpToMouse = true;
             this.iTalk_TrackBar_FormSize.Location = new System.Drawing.Point(106, 9);
-            this.iTalk_TrackBar_FormSize.Maximum = 6;
+            this.iTalk_TrackBar_FormSize.Maximum = 8;
             this.iTalk_TrackBar_FormSize.Minimum = 0;
             this.iTalk_TrackBar_FormSize.MinimumSize = new System.Drawing.Size(37, 22);
             this.iTalk_TrackBar_FormSize.Name = "iTalk_TrackBar_FormSize";
@@ -156,7 +156,7 @@
             // 
             // SettingForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
             this.ClientSize = new System.Drawing.Size(378, 94);

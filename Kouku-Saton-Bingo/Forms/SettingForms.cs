@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
 
 namespace Kouku_Saton_Bingo
 {
@@ -27,7 +19,7 @@ namespace Kouku_Saton_Bingo
 
             iTalk_TrackBar_FormSize.ValueChanged += () =>
             {
-                this.parameter.iFormSize.SizeValue = 300 + iTalk_TrackBar_FormSize.Value * 50;
+                this.parameter.iFormSize.SizeValue = 250 + iTalk_TrackBar_FormSize.Value * 50;
             };
 
             iTalk_TrackBar_Opacity.ValueChanged += () =>
@@ -35,7 +27,7 @@ namespace Kouku_Saton_Bingo
                 this.parameter.iOpacity.SizeValue = iTalk_TrackBar_Opacity.Value;
             };
 
-            iTalk_TrackBar_FormSize.Value = (this.parameter.iFormSize.SizeValue - 300) / 50;
+            iTalk_TrackBar_FormSize.Value = (this.parameter.iFormSize.SizeValue - 250) / 50;
             iTalk_TrackBar_Opacity.Value = this.parameter.iOpacity.SizeValue;
         }
     }
