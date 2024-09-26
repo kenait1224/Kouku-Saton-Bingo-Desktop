@@ -17,6 +17,16 @@ namespace Kouku_Saton_Bingo
         private Action ResetClickAction;
         private Action CloseClickAction;
 
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams cp = base.CreateParams;
+                cp.ExStyle |= 0x02000000;  // enable WS_EX_COMPOSITED
+                return cp;
+            }
+        }
+
         public ToolWindow(ref Parameter parameter,string start_directory, int formsize , int opacity, int offset)
         {
             InitializeComponent();
