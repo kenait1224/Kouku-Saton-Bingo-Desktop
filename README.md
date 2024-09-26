@@ -19,9 +19,16 @@ As a result, I started thinking about how to make the chessboard float above the
 
 In addition to the basic features, some additional functions have been adjusted and added to enhance the user experience:
 
-* __Adjust the settings interface position to make it easier for users to personalize their settings__ 
-* __Added window position memory function: the software will now remember the last used position when closed__
-* __Added numbering hint feature: can be turned on or off based on personal preference, and the setting will be saved__
+<h3 align="left">【2024-09-26】 </h4>
+
+* __Modified the minimum window size__
+* __Add new software installation tool__
+
+<h3 align="left">【2024-09-12】 </h4>
+
+* Adjust the settings interface position to make it easier for users to personalize their settings 
+* Added window position memory function: the software will now remember the last used position when closed
+* Added numbering hint feature: can be turned on or off based on personal preference, and the setting will be saved
 
 The contents of each feature are shown in the image below.
 
@@ -33,7 +40,7 @@ The contents of each feature are shown in the image below.
 
 ## 📝 Version Information
 
-__Current Version:__ v24.20.1.0
+__Current Version:__ [v24.20.1.1](https://github.com/kenait1224/Kouku-Saton-Bingo-Desktop/releases/tag/v24.20.1.1)
 
 __Version Change Log:__ [VERSIONLOG.md](VERSIONLOG.md)
 
